@@ -2,3 +2,5 @@ q1) what happens when you initialize a repository? why do you need to do it ?
 a1) a hidden directory .git. It contains  metadata about the history of the repository. it makes a folder into a git repository. we need to use the git init command
 q2) how is the staging area different from the working directory and the repository ? what value do you think it offers ? 
 a2) staging area is the place where files that are ready for commit are placed whereas working directory contains all the files. It enables commit to be small logical units instead of large mix of changes
+q3) How can you use the staging area to make sure you have one commit per logical change?
+a3) Add only those files to the stage area that form a small logical unit. 
