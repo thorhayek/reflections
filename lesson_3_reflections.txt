@@ -1,2 +1,4 @@
 q1) When would you want to use a remote repository rather than keeping all your work local?
-a1) a remote repository is required when you are working from multiple machines or when you are collaborating with other people.
+a1) a remote repository is required when you are working from multiple machines or when you are collaborating with other people. It also helps against losing your changes due to hard disk crash or other unforseen events.
+q2)why might you want to pull changes manually rather than git having automatically stay up to date with your remote repository
+a2) Pulling is required when we make changes from another machine or when one of our collaborators has pushed / commited changes . ( push transfers last commit(s) to a remote server , commit adds changes to your local repo. )
